@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batman T4SU</title>
-    <style>
-        img{
-            background-color:black;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.CSS">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <a href="index.html">
                 <img src="assets/logos/logohome.png" alt="logo">   
             </a>
@@ -23,52 +19,62 @@
     </header>
     <main>
         <!--la première de la partie héro-->
-        <section>
-            <p>Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les 
+        <section id="hero"> 
+            <div class="container">
+                <div class="content">
+                   <p class="texte">Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les 
                 criminels de Gotham City. Il est vengeur. Il est la nuit.</p>
-                <h2>Il est Batman. </h2>
-                <div><a href="#">VOIR LE HEROS                </a>
-                 </div>
-                <div><a href="#">LES ADVERSAIRES</a>
+                   <h2 class="titre">Il est Batman. </h2>
+                    <div class="cta">
+                      <a class="btn" href="#">VOIR LE HEROS</a>
+                      <a class="btn" href="#">LES ADVERSAIRES</a>
+                    </div>
                 </div>
-                <img src="./assets/logos/flèche_down_header.png" alt="flêche">
+            </div>
+                <img class="fleche" src="./assets/logos/flèche_down_header.png" alt="flêche">
         </section>
         <!--la deuxième section concernant Batman au cinéma-->
-        <section>
-            <div>
+        <section id="Batman-cinema">
+            <div class="container">
                 <h1>BATMAN AU CINÉMA</h1>
-                <p>Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le 
+            <p>Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le 
                     dessinateur Bob Kane et le scénariste Bill Finger et apparaît pour la première fois dans le 
                     comic book Detective Comics en 1939. Batman se différencie de Superman, alors héros 
                     majeur de DC, car il n’a aucun pouvoir. Il sera porté au cinema pour la première fois en 1943 
                     par Lewis Wilson et bénéficiera de nombreux reboot, donnant l’occasion à de multiples 
                     acteurs d’interpréter l’homme chauve-souris. Voici les trois derniers :
                     </p>
-            </div>
-            <div>
-                <img src="./assets/illustrations/Bathome2.png" alt="">
-                <div>
-                    <h3>Robert Pattinson</h3>
-                    <p>(2022)</p>
+                <div class="Batman-personnage">
+                        <div>
+                            <img src="./assets/illustrations/Bathome2.png" alt="">
+                            <div>
+                               <h3>Robert Pattinson</h3>
+                               <p>(2022)</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/illustrations/Bathome3.png" alt="">
+                            <div>
+                                <h3>Christian Bale</h3>
+                                <p>(2006 2008 2012)</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/illustrations/Bathome4.png" alt="">
+                            <div>
+                                <h3>Ben Affleck</h3>
+                                <p>20016- 2017/2020 2023</p>
+                            </div>
+                        </div>
                 </div>
-                <img src="./assets/illustrations/Bathome3.png" alt="">
-                <div>
-                    <h3>Christian Bale</h3>
-                    <p>(2006 2008 2012)</p>
-                </div>
-                <img src="./assets/illustrations/Bathome4.png" alt="">
-                <div>
-                    <h3>Ben Affleck</h3>
-                    <p>20016- 2017/2020 2023</p>
-                </div>
-            </div>
+            </div>                 
         </section>
         <!--la section némésis-->
         <img src="./assets/illustrations/Bathome13.png" alt="">
         <section>
-            <div>
+            <div class="container">
                 <h1>NÉMÉSIS</h1>
-                <p>Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart 
+            <p class="texte">Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart 
                     du temps, des vilains sans capacités surnaturelles mais particulièrement violents ou 
                     psychopathes. Avec son introduction dans la Justice League il aura l’occasion de se mesurer à 
                     des antagonistes qui défient l’imagination et les lois de la physique. Parmi les derniers 
@@ -77,8 +83,8 @@
             <div>
                 <img src="./assets/illustrations/Bathome5.png" alt="">
                 <div>
-                    <h3>The Riddler Paul Dano</h3>
-                    <p>(2022)</p>
+                    <h3 class="titre">The Riddler Paul Dano</h3>
+                    <p class="texte">(2022)</p>
                 </div>
                 <img src="./assets/illustrations/Bathome6.png" alt="">
                 <div>
@@ -87,8 +93,8 @@
                 </div>
                 <img src="./assets/illustrations/Bathome7.png" alt="">
                 <div>
-                    <h3>Darkseid Ray Porter</h3>
-                    <p>(2022)</p>
+                    <h3 class="titre">Darkseid Ray Porter</h3>
+                    <p class="titre">(2022)</p>
                     <div>
                         <img src="./assets/illustrations/Bathome12.png" alt="">
                     </div>
@@ -97,9 +103,9 @@
         </section>
             <!--la section Alliés--> 
         <section> 
-                <div>         
-                    <h1>ALLIES</h1>
-                    <p>Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce 
+                <div class="container">         
+                    <h1 class="titre">ALLIES</h1>
+                    <p class="texte">Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce 
                         avant de l’assister dans son rôle du Batman. Ce dernier rencontrera Catwoman dès le 
                         premier numéro des aventures de l’homme chauve-souris en 1940. Tantôt ennemie tantôt 
                         alliée la jeune femme fatale fera tourner la tête de Batman à maintes reprises. Du côté de la 
@@ -108,43 +114,43 @@
                 </div>
                        <img src="./assets/illustrations/Bathome9.png" alt=""> 
                         <div>
-                            <h3>Alfred Pennyworth - Michael Cain</h3>
-                            <p>(2006 - 2008 - 2012)</p>
+                            <h3 class="titre">Alfred Pennyworth - Michael Cain</h3>
+                            <p class="texte">(2006 - 2008 - 2012)</p>
                         </div>
                         <img src="./assets/illustrations/Bathome8.png" alt="">
                         <div>
-                            <h3>Catwoman - Zoé Kravitz </h3>
-                            <p>(2008)</p>
+                            <h3 class="titre">Catwoman - Zoé Kravitz </h3>
+                            <p class="texte">(2008)</p>
                         </div>
                         <img src="./assets/illustrations/Bathome10.png" alt="">
                         <div>
-                            <h3>James Gordon</h3>
-                            <p>(2014-2019)</p>
+                            <h3 class="titre">James Gordon</h3>
+                            <p class="texte">(2014-2019)</p>
                         </div>
         </section>
         <!--la section justice league-->
         <section>
-                        <div>
-                            <h1>JUSTICE LEAGUE</h1>
-                            <p>Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils 
+                    <div class="container">
+                            <h1 class="titre">JUSTICE LEAGUE</h1>
+                            <p class="texte">Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils 
                                 doivent cependant apprendre à se faire confiance mutuellement et à faire équipe ce qui ne 
                                 sera pas chose aisée. Ensemble ils forment la Justice League, les plus grands super-héros de 
                                 la Terre, ceux vers qui le monde entier se tourne lorsque les menaces extraterrestres ou 
                                 surnaturelles menacent son existence.</p>
-                        </div> 
+                    </div> 
                         <img src="./assets/illustrations/Bathome11.png" alt=""> 
          </section>
          <!--la section multimédia-->
          <section>
-                        <div>
-                            <h1>MULTIMÉDIA</h1>
+                   <div class="container">
+                            <h1 class="titre">MULTIMÉDIA</h1>
                             <img src="./assets/illustrations/Bathome_ba1.png" alt="">
-                        </div>
+                    </div>
                         <div>
-                            <h2>ACTION,ADVENTURE</h2>
-                            <h3>Batman Begins</h3>
-                            <p> IMDB : <span>8.2</span></p>
-                            <p>Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément 
+                            <h2 class="titre">ACTION,ADVENTURE</h2>
+                            <h3 class="titre">Batman Begins</h3>
+                            <p class="texte"> IMDB : <span>8.2</span></p>
+                            <p class="texte">Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément 
                                 traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de 
                                 guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De retour chez lui à 
                                 Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans 
@@ -156,7 +162,7 @@
          </section>
          <!--le formulaire-->
          <div>
-            <h2>PRENONS CONTACT</h2>
+            <h2 class="titre">PRENONS CONTACT</h2>
             <form action="">
                 <label for="email">ADRESSE EMAIL</label>
                 <input type="email" name="email" placeholder="email">

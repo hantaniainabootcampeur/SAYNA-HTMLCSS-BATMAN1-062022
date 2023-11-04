@@ -1,3 +1,107 @@
-img{
+/*@import url("https://fonts.googleapis.com/css2? famille = Rajdhani: poids @ 300; 400; 500; 600; 700 &famille= Espace+Grotesk:wght@300;400;500;600;700 & display=swap");*/
+
+@font-face{
+    font-family: "rajdhani" ;
+    src: url(./assets/police/Rajdhani-Medium.ttf);
+}
+:root{
+    --yellow-color: #ffff00;
+    --yellow-light:#f8f184;
+    --blue-color:#19587d;
+    --red-color:#B11313;
+    --black-color:#0D0E09;
+    --white-color:#ffffff;
+    --gradient-white:#eddebf67;
+    --gradient-red:#89000978;
+    --black-color:#000;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "rajdhani";
+    font-size: 36px;
+    font-weight: 400;
+}
+button{
+    font-family: "rajdhani";
+    font-size: 20px;
+    font-weight: 400;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
     background-color: black;
+    color: white;
+    font-family: "Space Grotesk";
+    font-weight: 300;
+    }
+    /*design de la navigation*/
+    nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+    ul{
+        list-style: none;
+    }
+    nav ul a{
+        color: var(--white-color); 
+        font-size: 30px;
+        font-weight: 500;
+        font-family: "rajdhani";
+        /*text-decoration: none;*/
+    }
+    nav ul a:hover{
+        color: var(--yellow-color);
+    }
+/* design de la partie en tete Hero  */
+#hero{
+    background-image: url(./assets/illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #19587d;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+#hero .titre{
+    margin: 20px 0;
+}
+.btn{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 22px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    background: linear-gradient(80deg,var(--gradient-white),var(--gradient-red));
+    box-shadow: var(--black-color) 5px 5px 60px;
+}
+#hero .fleche{
+display: block;
+margin: 0 auto;
+margin-top: 285px;
+}
+/* design de la section Batman personnage */
+
+.Batman-personnage{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
 }
