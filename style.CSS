@@ -95,7 +95,7 @@ body{
 #hero .fleche{
 display: block;
 margin: 0 auto;
-margin-top: 285px;
+margin-top: 285px; 
 }
 /* design de la section Batman personnage */
 
@@ -104,4 +104,43 @@ margin-top: 285px;
     justify-content: space-between;
     padding: 20px;
     margin: 10px;
+
+}
+/*design de la section Némésis*/
+.deco{
+    position: relative;
+    padding-left: 210px;
+    padding-bottom: auto;
+}
+
+.nemesis-personnage{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    margin: 10px;
+
+}
+.deco2{
+    position: relative;
+    padding-left: 100%;
+    padding-bottom: auto;
+}
+/* Design la section Alliés */
+.para{
+    padding:  20px 20px;
+}
+.Allies-personnage{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    margin: 10px;
+
+}
+.ami{
+    padding:  20px 20px;
+    margin-left: 0px;
+}
+/* design section justice league */
+.titre{
+    padding: 20px 20px;
 }
