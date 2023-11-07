@@ -175,4 +175,20 @@ margin-top: 285px;
     padding: 20px 20px;
 }
 
- 
+ /*design de la partie multimedia*/
+ #multimedia .slider-multimedia{
+    display: flex;
+    width:60% ;
+    margin: 40px auto;
+ }
+ #multimedia .slider-image{
+    width: 100%;
+ }
+ #multimedia .slider-content{
+    padding: 15px;
+    background: linear-gradient(80deg,var(--gradient-white),var(--gradient-red)); 
+ }
+ #mutimédia p{
+    font-size: 14px;
+ }
+
